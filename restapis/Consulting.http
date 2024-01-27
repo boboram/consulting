@@ -1,0 +1,13 @@
+### /v1/how-to-lose-weight
+GET localhost:6051/api/v1/how-to-lose-weight
+Content-Type: application/x-www-form-urlencoded
+
+
+### /v1/how-to-lose-weight
+GET localhost:6051/api/v1/how-to-lose-weight?tags[0]=enough_time
+Content-Type: application/x-www-form-urlencoded
+
+
+### /v1/how-to-lose-weight
+GET localhost:6051/api/v1/how-to-lose-weight?tags[0]=strong_will&tags[1]=enough_time&solution_types[0]=FITNESS
+Content-Type: application/x-www-form-urlencoded
