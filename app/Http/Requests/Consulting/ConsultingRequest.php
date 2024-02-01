@@ -2,16 +2,11 @@
 
 namespace App\Http\Requests\Consulting;
 
-use App\Enums\Exceptions\ErrorMessageType;
-use App\Exceptions\GbikeException;
-use App\Http\Enums\SolutionSubType;
 use App\Http\Enums\SolutionType;
 use App\Http\Enums\TagType;
-use App\Http\Resources\Consulting\Consulting;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Http\Exceptions\HttpResponseException;
-use Illuminate\Http\Response;
 use Illuminate\Validation\Rule;
 
 /**

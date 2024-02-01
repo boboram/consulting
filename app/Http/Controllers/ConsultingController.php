@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Http\Data\Consulting\ConsultingData;
 use App\Http\Requests\Consulting\ConsultingRequest;
-use App\Http\Resources\Consulting\Consulting;
 use App\Http\Resources\Consulting\ConsultingCollection;
 use App\Http\Services\PersonalTraining;
 use Illuminate\Http\Response;
